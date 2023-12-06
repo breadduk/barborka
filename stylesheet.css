@@ -1,0 +1,43 @@
+@keyframes color {
+  0%   { background: #33CCCC; }
+  20%  { background: #33CC36; }
+  40%  { background: #B8CC33; }
+  60%  { background: #FCCA00; }
+  80%  { background: #33CC36; }
+  100% { background: #33CCCC; }
+}
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 9s infinite linear;
+}
+p {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+	p:first-letter {color:red;
+	font-size:xx-large;}
+
+p{
+	font-size: 18px;
+}
+
+
+h2:first-letter {
+	font-size: 36px;
+}
+.klasa {
+	color: #b00b50
+}
+
+#ident {
+	font-size: 10px;
+	font-style:italic;
+}
+div > p {
+	font-size:2em;
+}
+.obrazek {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}

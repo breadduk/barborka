@@ -1,0 +1,131 @@
+@keyframes color {
+  0%   { background: #33CCCC; }
+  20%  { background: #33CC36; }
+  40%  { background: #B8CC33; }
+  60%  { background: #FCCA00; }
+  80%  { background: #33CC36; }
+  100% { background: #33CCCC; }
+}
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 9s infinite linear;
+}
+p {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+/*<style type="text/css">
+p:first-letter {color:red;font-size:xx-large;}
+h1:before {content:"rozdzial";}
+</style>
+after */
+	p:first-letter {color:red;
+	font-size:xx-large;}
+h1:before {content:"rozdzial";
+	
+}
+p{
+	font-size: 18px;
+}
+p:before{
+	content:"początek";
+	
+	color: #f00;
+}
+p:after{
+	content:"KONIEC";
+}
+h2:first-letter {
+	font-size: 36px;
+}
+.klasa {
+	color: #b00b50
+}
+
+#ident {
+	font-size: 10px;
+	font-style:italic;
+}
+div > p {
+	font-size:2em;
+}
+.obrazek {
+		border: 120;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*
+* {
+	border: 120;
+	margin: 0;
+	padding: 0;
+
+}
+p,h1 {color: #800;
+	font-size: 2em;}
+h6.tytul {
+	font-size: 2.8em;
+	color: green;}
+.opis {font-size: 0.1em;}
+
+
+
+*/
+
+/*
+
+/* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+p,h1 {color: #800;
+	font-size: 2em;}
+h6.tytul {
+	font-size: 2.8em;
+	color: green;}
+.opis {font-size: 0.1em;}
+*/
+
+/* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+body {color: green;
+	background-color: #000;}
+div {color: red;}
+
+.tytul {font-size: 15px;}
+
+.kolor {color: blue;
+	background-color: #111;
+	}
+	
+	
+#ident {font-size: 3em;
+	font-style: italic;
+	border: dotted;
+	border-color: purple;
+	border-bottom-width: thin;
+	width: 50%;}
+
+
+*/
+/*
+
+
+article > p {
+	color:red;
+}
+
+article > h3 {
+	font-style:italic;
+}
+/* jeżeli ojciec > dziecko       formatuje gdy jest beazpośrednio dzieckiem */
+
+/*
+
+*/
